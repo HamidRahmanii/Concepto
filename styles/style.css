@@ -22,7 +22,7 @@ html {
 
 header {
   background-color: white;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   width: 100%;
   min-height: 12vh;
   position: fixed;
@@ -106,7 +106,7 @@ header .nav-bar ul li {
 }
 
 .main-section {
-  padding: 10rem 15rem 0;
+  padding: 10rem 9rem 0;
 }
 .main-section h1 {
   justify-content: center;
@@ -147,7 +147,7 @@ header .nav-bar ul li {
 }
 
 .picture-section {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 .picture-section .picture {
   height: 70vh;
@@ -158,8 +158,8 @@ header .nav-bar ul li {
 }
 
 .honors-section {
-  padding-bottom: 8rem;
-  transform: translateX(-2.5rem);
+  padding-bottom: 5rem;
+  /* transform: translateX(-2.5rem); */
 }
 .honors-section .honors {
   display: flex;
@@ -244,12 +244,12 @@ header .nav-bar ul li {
 }
 
 .category-section .category {
-  padding: 5rem;
+  padding: 3rem;
 }
 .category-section .category .category-title {
   display: flex;
   align-items: center;
-  padding: 0 5rem;
+  padding: 0 3rem;
   gap: 1rem;
   margin-bottom: 5rem;
 }
@@ -301,7 +301,7 @@ header .nav-bar ul li {
 .favorite-section .favorite .favorite-title {
   color: white;
   position: relative;
-  margin: 0 10rem;
+  margin: 0 5rem;
   display: flex;
   justify-content: space-between;
   transform: translateY(-8rem);
