@@ -344,6 +344,7 @@ header .nav-bar ul li {
 @media screen and (max-width: 900px) {
   .category-section .category .category-options {
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem 1rem;
   }
