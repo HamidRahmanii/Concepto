@@ -7,7 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+button {
+  cursor: pointer;
+}
 input {
   outline: none;
 }
@@ -202,6 +204,11 @@ header .nav-bar ul li {
 .connection-section {
   padding: 1rem 5rem;
 }
+.category-images {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
 .connection-section .connection {
   padding-bottom: 10rem;
   display: flex;
@@ -257,7 +264,7 @@ header .nav-bar ul li {
 .category-section .category .category-options {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 1rem;
+  gap: 3rem 1rem;
 }
 .category-section .category .category-options .option {
   place-self: center;
@@ -266,7 +273,7 @@ header .nav-bar ul li {
   align-items: center;
   flex-direction: column;
   max-width: 6rem;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
 }
 .category-section .category .category-options .option .circle {
@@ -308,9 +315,9 @@ header .nav-bar ul li {
 .favorite-section .favorite .favorite-cards {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   padding: 0 10rem;
   transform: translateY(-5rem);
+  flex-wrap: wrap;
 }
 .favorite-section .favorite .favorite-cards .card {
   background-repeat: no-repeat;
@@ -332,4 +339,19 @@ header .nav-bar ul li {
 }
 .favorite-section .favorite .favorite-cards .card4 {
   background-image: url("/assets/images/alibaba-card.png");
-} /*# sourceMappingURL=style.css.map */
+}
+
+@media screen and (max-width: 900px) {
+  .category-section .category .category-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .category-section .category .category-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 1rem;
+  }
+}
